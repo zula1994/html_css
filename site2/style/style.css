@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*index*/
+.banner {width: 1430px; height: 570px; margin: 0 auto; background:url(../images/banner.jpg) no-repeat center; }
+
+.index_ad {width: 1048px; height: 346px; padding-top: 50px; padding-bottom: 47px; margin: 0 auto;}
+	.index_ad dl {float: left; width: 193px; height: 302px; padding: 22px 17px; border: 1px #CECECE solid; margin: 0 16px;}
+	.index_ad dl dt {width: 193px; height: 241px; border-bottom: 1px #cecece dashed;}
+		.index_ad dl dt img {display:inline-block;}
+		.index_ad dl dt p {margin-bottom: 10px;text-align: center;}
+		.index_ad dl dt h3 {text-align: center; margin-top: 18px; margin-bottom: 10px;}
+	.index_ad dl dd {width: 121px; height: 36px; padding: 21px 36px 0;}
+		.index_ad dl dd a {display: block; width: 118px; height: 34px;  border: 1px #cecece solid; text-align: center; line-height: 34px; color: #000;}
+	
+.index_case {width: 100%; height: 619px; background: #EBEBEB}
+	.index_case_tit { height: 44px; padding-top: 28px;}
+		.index_case_tit h1 {float: left; width: 230px; font-weight: normal;}
+			.index_case_tit h1 span {font-size: 12px;}
+		.index_case_tit a img {float: right;}
+	.index_video {float: left; width: 402px; height: 505px; background: #fff;}
+		.index_video h2 {width: 384px; height: 64px;  padding-left: 18px; line-height: 64px; font-weight: normal; color: #858585;}
+		.index_video dt {height: 335px; border-bottom: 1px #ECECEC solid;}
+			.index_video dt h3 {margin-top: 24px; margin-bottom: 12px; padding-left: 18px; font-size: 16px; font-weight: normal;}
+			.index_video dt p {padding-left: 18px; color:#ADADAD;}
+		.index_video dd {padding-left:18px; margin-top: 18px; text-index: 1.5em; line-height: 20px; color: #868686;}
+	.index_ad_r {float: left; width: 598px; }
+	 	.index_case_r dl {float: left; width: 284px; height: 245px; margin-left: 15px; margin-bottom: 15px; background: #fff;}
+			.index_case_r dt {width: 284px;}
+			.index_case_r dt h3 {margin-top: 10px; padding-left: 18px; font-size: 16px; font-weight: normal;}
+			.index_case_r dt p {margin-bottom: 6px;padding-left: 18px; color:#ADADAD;}
+.index_b {padding-top: 22px; padding-bottom: 19px;}
+
+/*xiangqin*/
+.xiangqin h2 {margin-top: 20px; font-weight: normal; font-size:22px; text-align: center;}
+.xiangqin h3 {margin-top: 10px; text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 40px;}
+.xiangqin h3 span {color: #f00;}
+.xiangqin p {line-height: 26px; text-indent: 2em;}
+.xiangqin_b {padding-top: 22px; padding-bottom: 19px;}
+
+/*liebiao*/
+.liebiao {width: 920px; min-height: 155px; _height: 155px; padding: 28px 40px 0; margin-bottom: 25px; background: #fff;}
+.liebiao a {display:block; font-size: 16px; margin-bottom: 28px; color: #333;}
+.liebiao a:hover {color: #f00;}
+.liebiao1 a {color: #f00;}
+.liebiao p {margin-bottom: 25px;}
+.bottom {background: #fff;}
+
+/*imag*/
+
+.image {width: 960px; height: 840px; margin:20px auto; padding: 42px 20px;background: #EBEBEB;W}
+.image dl {float: left; position: relative; width: 286px; height: 390px; padding: 13px 0 0 13px; margin:0 10px 17px; background: #fff;}
+	.image dl dt {padding-right: 13px;}
+	.image dl dt h3 {font-size: 14px; margin-top: 16px; }
+	.image dl dt p {color: #666; margin-top: 12px;}
+	.image dl dd { margin-top: 20px;text-indent: 2em; line-height: 20px; color: #333;}
+	.image dl dd a {display: block; position:absolute; right:0; bottom:0; width:126px; height: 41px; background: url(../images/imag_more.jpg) no-repeat;}
+	.image dl dd a:hover {background: url(../images/imag_moreh.jpg) no-repeat;}
+	
+/*connect*/
+
+.connect {width: 998px; height: 600px; margin: 60px auto 0;}
+	.connect_t {width: 100%; height: 73px; margin-bottom: 20px;}
+		.connect_t  a {display: block; float:left; width: 100px; height: 71px; border: 1px #DADADA solid; margin-right: 20px; text-align: center; line-height: 71px; color: #828282;}
+		.connect_t  a:hover {background: #303030; color: #fff;}
+	.connect_b {width: 918px; height: 400px; border: 1px #D7D7D7 solid; padding: 45px 40px;}
+		.connect_b form {height:291px;}
+		.connect_b p {color: #787878; margin-bottom: 65px;}
+	.connect_b h1{float: left; border: 1px #C6C6C6 solid; height: 46px; width: 399px; padding-left:13px; line-height: 46px; margin: 30px; margin-left: 0; font-size: 12px; font-weight: normal;}
+	input {display: block; float: right; border: 0; height: 46px; line-height: 46px; width: 330px; }
+	textarea {border: 1px #c6c6c6 solid; height: 126px; width:860px;}
+	.isub {display: block; float: left; width: 134px; height: 45px; margin-top: 30px; background: url(../images/isub.jpg) no-repeat;}
+	.connect_b h4 {float :left; font-size: 12px; font-weight: normal; margin-top: 45px; color: #f00;}

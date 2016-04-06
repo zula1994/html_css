@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+body {background:url(../images/JQ/bg.jpg) repeat-x; font-size:12px;}
+li {list-style:none;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:0;}
+
+.layout {width:1002px; margin:0 auto;}
+.header .header_nav {height:35px; width:1002px;}
+	.nav_ul {height:13px; width:330px; padding:11px 0; float:left;}
+		.nav_ul li {float:left; background:url(../images/JQ/nav_bg.jpg) no-repeat right top; padding-right:2px;}
+			.nav_ul li a {display:block; padding:0 7px; color:#222; line-height:13px;}
+	.header_search {float:right; width:367px; float:right;}
+		.header_search ul {float:left; width:198px;}
+			.header_search ul li {float:left;}
+			.header_search ul li a {display:block; height:13px; padding:11px 0; margin-right:17px; color:#222;}
+		.hsearch {width:169px; padding-top:8px; float:right;} 
+			.hsearch .stxt {width:140px; height:20px; border:0; background:#fff; float:left;}
+			.hsearch .sbtn {width:29px; height:20px; float:left; border:0; background:url(../images/JQ/search.jpg);}
+.header .logo_1{width:340px; height:98px; background:url(../images/JQ/logo_1.jpg); float:left;}
+.header .logo_2{width:1002px; height:98px; background:url(../images/JQ/logo_2.jpg) no-repeat right top;}
+
+.nav {width:1000px; height:44px; padding:0 1px;}
+.nav li {width:100px; height:44px; float:left; text-align:center; line-height:44px;}
+.nav a {font-size:18px; color:#fff;}
+.nav a:hover{ text-decoration:underline;}
+.banner {height:328px;}
+.banner .banner_left {float:left; width:669px;}
+.banner .banner_right {width:253px; height:317px; float:right; padding:11px 40px 0; float:right; background:url(images/JQ/banner_b.jpg) repeat-x left bottom;} 
+.banner .banner_right li {height:54px; padding:9px 0; border-bottom:1px #D5D5D5 dashed; line-height:24px;}
+.banner .banner_right li a {font-size:14px; color:#000; font-weight:bold;}
+.banner .banner_right li a:hover {text-decoration:underline;}
+
+.container .container_left {width:761px; height:617px; float:left;}
+.container .container_left h1{height:20px; font-size:18px; font-weight:normal; padding-bottom:10px; border-bottom:1px #666 solid;}
+.container .container_left .continer_left_1 {margin-top:51px; margin-right:39px; width:269px;  height:201px; background: url(images/JQ/container_l.jpg) repeat-x 0 29px; float:left;}
+.container .container_left .continer_left_2 {margin-top:51px; margin-right:30px; width:423px; height:201px; background:url(images/JQ/container_l.jpg) repeat-x 0 29px;float:left;}
+.container_left .continer_left_1 dt {width:269px; height:122px; background:url(../images/JQ/container_pic.jpg) no-repeat; margin-top:19px;}
+.continer_left_1 dd {padding:0 16px; line-height:29px; color:#646462;}
+	ul.jiangzuo {margin-top:19px;}
+	ul.jiangzuo li {overflow:hidden; height:23px;}
+	ul.jiangzuo li a{dispaly:block; color:#000; width:210px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; float:left;}
+	ul.jiangzuo li span {float:right;}
+.container_left .continer_left_2 .dongtai {width:423px;height:61px; margin-top:19px;}
+.container_left .continer_left_2 .dongtai img {float:left;}
+.continer_left_2 .dongtai dl {width:346px; height:61px; float:right;}
+.continer_left_2 .dongtai dt {font-size:14px; font-weight:bold; line-height:20px;}
+.continer_left_2 .dongtai dd {line-height:16px;}
+	ul.tongzhi li a {width:335px;}
+
+.container .container_right{width:241px;height:617px; float:right;}
+	.container_right .right_top{width:219px; height:261px; margin:40px 0; padding:11px 11px 0; background:url(../images/JQ/right_top.jpg);}
+		.right_top img {margin-bottom:11px;}
+	.container_right .right_bottom{width:241px; height:150px;}
+		.right_bottom ul {height:32px; width:241px; border-bottom:1px solid #CCCCCC; margin-bottom:28px;}
+			.right_bottom ul li {float:left; margin-right:22px;}
+				.right_bottom ul li a {display:block; height:31px; line-height:32px; color:#bbb;}
+				a#active {border-bottom:1px #C8141F solid; color:#c8141f;}
+		.right_bottom .itxt {display:block; width:217px; height:26px; border:1px solid #CCCCCC; margin-bottom:5px;}
+		.right_bottom .isub {width:78px; height:22px; border:1px solid #CCCCCC; margin-right:50px; background:#F0F0F0;}
+		.right_bottom a {color:#bbb;}
+
+.clear {clear:both; }
+
+.footer {width:1000px; height:42px; padding:1px 0;}
+.footer li{float:left; line-height:42px; width:200px; height:42px; text-align:center;}
+.footer li a{color:#000;}
+.footer li a:hover {text-decoration:underline;}
+
+.copy {width:1002px; line-height:46px; text-align:center; color:#fff;} 

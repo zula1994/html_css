@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+body {font-family: Arial, "宋体"; font-size: 12px; line-height: 150%;}
+ul,ol {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+img {display: block; border: 0;}
+
+.layout {width: 1000px; clear: both; overflow: hidden; margin: 0 auto;}
+/*header*/
+
+.header {width: 100%; height: 103px; background: url(../images/header_bg.jpg) repeat-x; border-bottom: 1px #000 
+solid;}
+	.logo {float: left; width: 260px; height: 103px; background: url(../images/logo.jpg) no-repeat 50px top;}
+	.header_r {float: right; width: 612px; height: 103px;}
+		.subnav{height: 34px; text-align: right;}
+				.subnav a {margin-right: 30px; padding-right: 20px; line-height: 28px; background: url(../images/subnav.jpg) no-repeat right center; color: #999;}
+		ul.nav {width: 612px; height:69px;}
+			ul.nav li {float: left; width: 101px; border-left: 1px #BFBFBF solid;}			
+				ul.nav li a {display: block; height: 29px; padding-top: 40px; text-align: center; color: #222;}
+				li#index a {background: url(../images/home.jpg) no-repeat center 15px;}
+				li#index a:hover {text-decoration: none; background:#4D4D4D url(../images/home_h.jpg) no-repeat center 15px; color: #fff;}
+				li#about a {background: url(../images/pinpai.jpg) no-repeat center 15px;}
+				li#about a:hover {text-decoration: none; background:#4D4D4D url(../images/pinpai_h.jpg) no-repeat center 15px; color: #fff;}
+				li#video a {background: url(../images/pindao.jpg) no-repeat center 15px;}
+				li#video a:hover {text-decoration: none; background:#4D4D4D url(../images/pindao_h.jpg) no-repeat center 15px; color: #fff;}
+				li#hezuo a {background: url(../images/jiemu.jpg) no-repeat center 15px;}
+				li#hezuo a:hover {text-decoration: none; background:#4D4D4D url(../images/jiemu_h.jpg) no-repeat center 15px; color: #fff;}
+				li#gonggao a {background: url(../images/xiaoxi.jpg) no-repeat center 15px;}
+				li#gonggao a:hover {text-decoration: none; background:#4D4D4D url(../images/xiaoxi_h.jpg) no-repeat center 15px; color: #fff;}
+				li#connect a {background: url(../images/lianxi.jpg) no-repeat center 15px;}
+				li#connect a:hover {text-decoration: none; background:#4D4D4D url(../images/lianxi_h.jpg) no-repeat center 15px; color: #fff;}
+				
+/*container*/
+.container {min-height: 800px; _height: 600px; background: #EDEDED; padding: 20px 0;}
+	.container_tit {width: 960px; height: 55px; padding: 0 20px; margin-top: 37px; margin-bottom: 28px; background: #fff;}
+		.container_tit h3 {float: left; width: 135px; line-height: 55px; font-weight: normal; font-size: 12px;}
+		.container_tit h3 span {font-size: 14px; color: #666;}
+		.container_tit p {float: right; width: 180px; text-align: right;}
+		.container_tit p a {display:block; float:left; height: 53px; line-height: 55px; margin:0 20px; color:#7676B7;}
+		.container_tit p a:hover{border-bottom: 2px #E21326 solid;}
+	.container_b {width: 960px; min-height: 600px; _height: 600px; padding: 20px 20px; background: #fff;}
+/*bottom*/
+.bottom {width:	998px; height: 313px; margin: 10px auto; border: 1px #DEDEDE solid;}
+	.bottom_t{width: 934px; height: 156px; padding: 32px; border-bottom: 1px #EAEAEA solid;}
+	.bottom ul {float: left; width: 85px;  padding: 0 37px 0 46px; border-right: 1px #DEDEDE solid;}	
+		.bottom ul li {margin-bottom: 12px;}
+			.bottom ul li h3{margin-bottom: 18px;}
+			.bottom ul li a {color: #717171;}	
+	.bottom ol {float: left; padding-top: 32px; padding-left: 60px;}
+		.bottom ol li {margin-bottom: 10px;}
+			.bottom ol li span {color: #A60000;}
+	.bottom_b {width: 962px; height: 60px; padding: 16px 18px;}
+		.bottom_b p span {color: #B6B6B6;}
+		.bottom_b p.link {margin-top: 25px;}
+			.bottom_b p.link a {padding: 0 20px; color: #717171;}
+			
+/*footer*/
+.footer {width: 100%; height: 36px; padding-top: 48px; background: #232323;}
+	.footer p{color: #717171;}
+	.footer p.cpright {float: left;}
+	.footer p.footer_r {float: right;}

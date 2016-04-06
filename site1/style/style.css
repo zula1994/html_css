@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*index*/
+.border {border: 1px #ddd solid; border-top:2px #FF6600 solid; padding: 10px 12px;}
+.container_tit {height: 25px; border-bottom: 1px #CCCCCC solid;}
+	.container_tit h3 {float: left; width: 70px;}
+	.container_tit p {float: right; width: 100px;} 
+		.container_tit p a {color:#DDE3EB;}
+.container_l {width:321px; height:292px; float: left; margin-right: 14px;}
+	.container_l li {height: 18px; padding-left: 12px; margin-top: 14px; background: url(../images/arow.jpg) no-repeat left center;}
+		.container_l li a {display: block; float: left; color: #666;}
+		.container_l li span {float: right;}
+	.container_l dl,.container_c dl {clear: both; overflow: hidden; margin:10px 0; padding: 10px 0; border-bottom: 1px #ddd dashed;}
+		.container_l dt,.container_c dt {float: left;}
+		.container_l dd,.container_c dd{float: right; width: 218px;}
+			.container_l h4,.container_c h4{color: #f00;}
+			.container_l p,.container_c p{text-indent: 2em;}
+			.container_l dd a,.container_c dd a {color: #f00;}
+			
+.container_c {width: 369px; height: 292px; float: left; margin-right: 14px;}
+	.container_c dl {border: 0;}
+	.container_c dd {width: 190px;}
+	.container_c ul {width: 366px; height: 25px; border: 1px #bbb solid; background: url(../images/newsUlbg.jpg) repeat-x;}
+	.container_c ul li {width: 119px; height: 25px; text-align:center; padding-top:3px; float: left;}
+	.container_c ul li a {color:#222; margin-right:2px;}
+	
+.container_r {width: 225px; height: 292px; float: left;}
+.container_t {width: 200px; height: 120px; background: #fff; }
+.container_b {width: 200px; height: 140px; padding: 10px 12px; margin-top: 10px; border: 1px #ccc solid;}
+	.container_b .line {width: 158px; height: 24px; padding:0 20px; border: 1px #bbb solid; margin-bottom:20px; background: url(../images/newsUlbg.jpg) repeat-x; line-height: 24px;}
+	.container_b p {margin-bottom: 10px; padding-left: 20px;}
+		.container_b p span {color: #B67C64;}
+
+/*aboutus*/
+.about ul,.connect ul {width:205px; padding-bottom: 10px;margin-bottom:15px;}
+.about ul li,.connect ul li {width: 205px; height: 40px; border-bottom: 1px #CCCCCC dashed; background: url(../images/dotSide.jpg) no-repeat 70px center;}
+.about ul li a,.connect ul li a {display: block; padding-left:4px; text-align: center; line-height: 40px; color:#333;}
+
+.connect ul li a {color: #FF6600;}
+.connect img {width: 198px; height: 137px; border: 1px #CCCCCC solid;}
+
+.aboutNews li {padding-left: 6px; background: url(../images/dotSide.jpg) no-repeat left center; margin-bottom: 8px;}
+	.aboutNews li a {color:#222;}
+	.aboutNews li.first a {color: #FF6600;}
+.aboutNews dl {padding-bottom: 5px; margin-bottom: 5px;  border-bottom: 1px #ddd dashed;}
+.aboutNews dl dt img {display: block;}
+.aboutNews dl dd {text-indent: 2em; line-height: 20px;}
+.aboutNews dl dd a {float: right; color: #ff6600;}
+.content {height:910px;}
+.content img {margin: 10px; float: left;}
+.content p {line-height:25px; text-indent: 2em; margin-bottom: 20px;}
+
+
+/*connect*/
+form.confr {width: 520px; margin: 100px auto; font-size:14px;}
+form.confr input {width: 245px; height: 33px; border: 1px #ddd solid; margin-bottom: 20px;}
+form.confr textarea {width: 245px; height: 50px;}
+form.confr input.btn {width: 80px; height: 25px;  border: 0; background: #FF6600; color: #fff;}
+
+/*product*/
+.product dl {width: 210px; height:321px; border: 1px #ddd solid; float: left; margin:18px 10px; }
+.product dl dt {width: 210px; height: 200px;}
+.product dt img {margin: 0;}
+.product dd {margin-top: 10px;}
+.product dd p {margin-bottom: 0; text-indent: 0; line-height: 150%;}
+.product dd a {display: block;  width: 210px; height: 29px; text-align: right; line-height: 29px; background: #F4F4F4; color: #333;}
+.product dd a:hover {background: #FF6600;}
+
+/*news*/
+.news dl {height: 188px; padding-top: 20px; padding-left: 15px; border-bottom: 1px #ddd solid;}
+.news dl dt {width:253px; height: 160px; border: 1px #ddd solid; float: left; margin-right: 20px;}
+.news dl dt img {margin: 0;}
+.news dl dd {width: 400px; float: left;}
+.news dl dd h5 {}
+.news dl dd h6 {color:#FF9900; font-weight:normal;}
+.news ul li {height: 33px; border-bottom:1px #ddd dashed; background:url(../images/li.jpg) no-repeat 10px center; padding-left: 24px;} 
+.news ul li a {display: block; line-height: 33px; color: #333; float:left;}
+.news ul li span {line-height:33px; float:right;}

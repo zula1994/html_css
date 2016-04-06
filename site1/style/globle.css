@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+body {font-family:Arial, "宋体"; font-size: 12px; line-height: 150%;}
+img {border: 0; display: block;}
+ul {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+.layout {width: 1000px; height: 100%; margin: 0 auto;}
+
+/*header*/
+.header {width: 100%; height: 85px;}
+	.logo {width: 345px; height: 85px; background: url(../images/logo.jpg) no-repeat center; float: left;}
+	.header_r {width: 280px; height: 30px; padding-top: 30px; padding-right: 75px; float: right;}
+	.header_r a {float: left; display: block; padding: 3px 5px; color:#333;}
+	.header_r a.arow {padding-left: 10px; background: url(../images/arow.jpg) no-repeat left center;}
+	.header_r a span {margin-left: 3px; color: #CCCCCC;}
+
+/*nav*/
+.nav {width: 100%; height: 40px; background: #FF6600;}
+	.nav ul {float: left; width: 735px; height:40px;}
+	 .nav ul li {float: left;}
+	 	.nav ul li a {display: block; width: 120px; height: 40px; text-align:center; line-height: 40px; color: #fff;}
+		.nav ul li a:hover {background: #EC4D00 url(../images/dot_a.jpg) no-repeat center bottom;}
+	.nav_r {float: right; height: 30px;  padding-top: 10px;}
+		.nav_r a {display: block; float: left; margin:0 10px;}
+		
+/*banner*/
+.banner {width: 100%; height: 340px; background: #F0F0F0;}
+	.banner_img {width: 1000px; height: 340px; background: url(../images/banner.jpg) no-repeat center;} 
+	
+/*container*/
+.container {width: 100%; clear: both; overflow: hidden; padding: 20px 0; background: #f0f0f0; }
+
+/*sidebar*/
+.sidebar {width: 225px; height:100%; float: left;}
+.sideD {width: 225px; margin-bottom: 20px;}
+.sideD_c {width: 205px; padding: 0 10px 10px; background: #fff;}
+.sideD h2 {width: 205px; height: 57px; padding-left: 20px; line-height: 57px; background:url(../images/sidebar.jpg) no-repeat; }
+/*content*/
+.content {float :right; width: 725px; min-height:685px; _height:685px; padding: 15px; background: #fff url(../images/content2.jpg) no-repeat right top;}
+.content .tit {height: 35px; padding:0 15px; border-bottom: 1px #ddd solid; background: url(../images/content1.jpg) no-repeat right center;}
+.content .tit h3 {width: 180px; padding: 0 20px; line-height: 35px; border-bottom: 1px #FF6600 solid;}
+/*footer*/
+.footer {width: 100%; clear: both; overflow: hidden; padding-bottom: 10px; background: #f0f0f0;}
+	.bottom {height: 30px; padding: 0 20px; background: #FF6600;}
+	p.bottom_l {float: left; width: 280px; line-height: 30px;color: #ffff;}
+	p.bottom_r {float: right; width: 350px; text-align: right;}
+		p.bottom_r a {margin-right: 10px; line-height:30px; color: #fff; }
+		p.bottom_r span {line-height: 30px; color: #ddd;}
+	p.cpright {height: 40px; padding: 0 20px; border-bottom: 1px solid #CCC; border-left:1px #ccc solid; line-height: 40px; background: #fff;}

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0; padding:0;}
+body {width:1100px; margin:0 auto; font-size:12px; line-height:150%;}
+li {list-style:none;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:0;}
+
+.header {height:65px; padding:0 50px; background:#F2F2F2;}
+	.logo {width:166px; height:65px; background:url(../images/gotoway/logo.jpg); float:left;}
+	.nav {height:48px; margin-top:17px; float:right;}
+	.nav li {width:60px; height:48px; line-height:48px; text-align:center; margin-left:40px; float:left;}
+	.nav li a {color:#4B4B4B; font-size:14px;}
+	
+/*banner*/
+.banner {height:420px; background:url(../images/gotoway/banner.jpg) no-repeat;}
+/*container*/
+.container {height:718px; padding:0 50px; background:#F2F2F2; }
+	.news {height:290px;}
+	.news .service {width:500px; height:290px; float:left; background:url(../images/gotoway/services.jpg) no-repeat;}
+		.service .news_new {width:469px; height:60px; margin-top:59px;}
+			.news_new h2 {width:110px; height:60px; color:#00B5EE; float:left;}
+			.news_new p {width:340px; height:60px; padding:0 5px; float:left; color:#bbb;}
+	.news .cases {height:290px; float:right; background:url(../images/gotoway/cases.jpg) no-repeat 6px top;}
+	.news .cases img {float:left; margin-left:6px; margin-top:71px;}
+
+	.about {height:260px; width:999px; margin-top:67px; color:#767676;}
+		.about dl {height:200px; background:url(../images/gotoway/dl_bg.jpg) no-repeat right top; padding-right:10px; color:#767676;}	
+		.about dl dd a {color:#767676;}
+		.about dl dt.more a {display:block; margin-bottom:25px; text-align:right; color:#9D9D9D;}
+	.guanyu {width:303px; height:260px;float:left;}	
+		.guanyu dl dd {margin-top:25px;}
+	.newcenter {width:274px; height:260px; padding-left:25px; float:left;}
+		.newcenter dt img {display:block; margin-bottom:15px;}	
+		.newcenter dd a span{display:block; width:245px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}	
+	.youhui {width:360px; height:260px; float:right; padding-left:25px; padding-right:10px;}
+		.youhui dd {clear:both; overflow:hidden; margin-bottom:5px;}
+		.youhui dd a {dispaly:block; width:240px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+		.youhui dd span {float:right;}
+	.connect {width:999px;height:48px; padding-bottom:1px; margin-top:53px; background:url(../images/gotoway/connect_bg.jpg) no-repeat;}
+		.connect ul {width:642px; height:34px; border:1px #CFCFCF solid; float:right; padding:6px 0; overflow:hidden;}
+		.connect ul li {float:left; border-right:1px solid #ddd;}
+		.connect ul li a {display:block; padding:0 7px; float:left; margin-right:20px; color:#9D9D9D;}
+		.connect ul li a.box {display:block; padding:7px 12px; height:20px;line-height:20px; margin-right:0;}
+		a.box img {display:block; float:left; margin-right:14px;}
+/*footer*/
+
+
+.footer {height:115px; padding:41px 50px 0; background:#383838;}
+	.footer p {color:#979797; }
+	.footer_left {width:467px; height:115px; float:left;}
+	.footer_left ul {height:12px; margin-bottom:10px;}
+		.footer_left li {float:left; height:12px; border-right:1px #979797 solid;}	
+			.footer_left li a {display:block; width:64px; height:12px; text-align:center; line-height:12px; color:#979797; }
+			.footer_left li.footer_li_frist a {width:47px; text-align:left;}
+			.footer_left li.footer_li_last a {width:47px; text-align:right;}
+	.footer_r {width:194px; height:68px; float:right;}
+	.footer_r h1 {color:#767676; margin-top:10px;}
+
+.copy {line-height:73px; background:#383838; text-align:center;}
+
+

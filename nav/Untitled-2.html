@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+* {margin:0; padding:0;}
+li {list-style:none;}
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
+.box {width:900px; height:65px; background:url(images/bg.jpg);}
+
+.ul_father {width:980px; height:32px; padding:0 50px;}
+	.ul_father li {height:12px; width:80px; float:left; padding:10px 0;}		
+		.ul_father li a {display:block; height:12px; width:80px; text-align:center; border-left:1px #F1F1F1 dashed; float:left; font-size:10px; color:#fff;}		
+		.ul_father li a.last {border-right:1px #F1F1F1 dashed;}
+		.ul_father li:hover {background:#F1F1F1;}
+		.ul_father li:hover a {color:#f00;}
+		.ul_father li:hover .ul_child {display:block;}
+.ul_child {display:none; height:33px; position:absolute;}
+	.ul_child li {height:13px; width:auto; padding:10px 0;margin-top:22px; float:left;}
+	.ul_father .ul_child li a {display:block; height:13px; width:auto; padding:0 18px;  border-left:1px #000 solid; line-height:13px; float:left;color:#000;}
+	.ul_father .ul_child li a.first {border:0;}
+</style>
+</head>
+
+<body>
+<div class="box">
+<ul class="ul_father">
+	<li><a href="#">财税首页</a></li>
+	<li>
+    	<a href="#">财务公开</a>
+    	<ul class="ul_child">
+        	<li><a href="#" class="first">财税简介</a></li>
+        	<li><a href="#">财税简介</a></li>
+            <li><a href="#">财税简介</a></li>
+            <li><a href="#">财税简介</a></li>
+            <li><a href="#">财税简介</a></li>
+            <li><a href="#">财税简介</a></li>
+        </ul>
+    </li>
+    <li><a href="#">网上办事</a></li>
+    <li><a href="#">公告中心</a></li>
+    <li><a href="#">法规中心</a></li>
+    <li><a href="#">财税文化</a></li>
+    <li><a href="#" class="last">专题宣传</a></li>
+</ul>
+</div>
+</body>
+</html>
